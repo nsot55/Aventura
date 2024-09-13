@@ -1,4 +1,4 @@
-body{
+body {
     background-color: orangered;
     color: aliceblue;
     font-family: "Pirata One", system-ui;
@@ -9,8 +9,25 @@ body{
     margin: 0;
 }
 
-button{
+button {
     background-color: black;
     color: whitesmoke;
     font-family: "Pirata One", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
 }

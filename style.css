@@ -2,4 +2,15 @@ body{
     background-color: orangered;
     color: aliceblue;
     font-family: "Pirata One", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    font-family: "Pirata One", system-ui;
 }
